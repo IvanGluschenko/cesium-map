@@ -1,0 +1,21 @@
+.all-maps {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+
+.panel {
+    border: 10px solid grey;
+    border-radius: 40px;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(187, 187, 187);
+}
+
+.map {
+    width: 83%;
+    height: 100%;
+    margin: auto;
+}
+
